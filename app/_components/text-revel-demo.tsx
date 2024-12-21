@@ -7,10 +7,6 @@ export function TextRevealDemo() {
         text="We will help you Bring your ideas to life, Build, Launch and Scale your startup"
         className=" text-7xl font-bold w-full text-start md:text-7xl lg:text-7xl"
       />
-
-      {/* <div className=" sticky">
-        <GlobeCard />
-      </div> */}
     </div>
   );
 }
