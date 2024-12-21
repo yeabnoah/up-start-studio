@@ -8,6 +8,7 @@ import { TextRevealDemo } from "./_components/text-revel-demo";
 import { UserInteraction } from "./_components/user-interaction";
 import { HeroVideoDialogDemo } from "./_components/video-card";
 import { WorldMapDemo } from "./_components/world-map-demo";
+import Footer from "./_components/footer";
 // import { BentoDemo } from "./_components/bento-grid";
 // import FoldedImageCard from "./_components/fold-image";
 
@@ -101,7 +102,8 @@ export default function Page() {
       <ToolsMarquee />
       <UserInteraction />
       <WorldMapDemo />
-      {/* <FoldedImageCard /> */}
+
+      <Footer />
     </div>
   );
 }

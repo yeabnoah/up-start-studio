@@ -11,12 +11,14 @@ export const UserInteraction = () => (
   >
     <div className="flex h-full w-full flex-col justify-center px-4 text-start sm:items-center sm:text-center">
       <div className="text-6xl font-bold">
-        customize our service for your needs.
+        <span className=" text-appPrimary">customize</span>our service for your
+        needs.
       </div>
       <div className="text-lg text-neutral-400">
         Hover over the illustration and you gonna see
       </div>
     </div>
+
     <Pointer
       name="you(client)"
       className={"relative flex h-fit w-full items-end justify-center"}
