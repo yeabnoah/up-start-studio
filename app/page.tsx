@@ -2,9 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import CardScroll from "@/components/ui/scroll-element";
 import Link from "next/link";
+import { ToolsMarquee } from "./_components/fold-image";
 import { MarqueeDemo } from "./_components/marquee";
-import { HeroVideoDialogDemo } from "./_components/video-card";
 import { TextRevealDemo } from "./_components/text-revel-demo";
+import { UserInteraction } from "./_components/user-interaction";
+import { HeroVideoDialogDemo } from "./_components/video-card";
+import { WorldMapDemo } from "./_components/world-map-demo";
 // import { BentoDemo } from "./_components/bento-grid";
 // import FoldedImageCard from "./_components/fold-image";
 
@@ -95,6 +98,9 @@ export default function Page() {
       {/* <BentoDemo /> */}
       <CardScroll />
       <TextRevealDemo />
+      <ToolsMarquee />
+      <UserInteraction />
+      <WorldMapDemo />
       {/* <FoldedImageCard /> */}
     </div>
   );
