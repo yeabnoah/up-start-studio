@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
-import { MarqueeDemo } from "./_components/bento-grid";
+import { MarqueeDemo } from "./_components/marquee";
 import CardScroll from "@/components/ui/scroll-element";
+import { HeroVideoDialogDemo } from "./_components/video-card";
+import { BentoDemo } from "./_components/bento-grid";
 // import FoldedImageCard from "./_components/fold-image";
 
 export default function Page() {
@@ -88,6 +90,8 @@ export default function Page() {
           </main>
         </div>
       </div>
+      <HeroVideoDialogDemo />
+      <BentoDemo />
       <CardScroll />
       {/* <FoldedImageCard /> */}
     </div>
