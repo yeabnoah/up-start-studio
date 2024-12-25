@@ -3,14 +3,11 @@ import { Card } from "@/components/ui/card";
 import CardScroll from "@/components/ui/scroll-element";
 import Link from "next/link";
 import { ToolsMarquee } from "./_components/fold-image";
+import Footer from "./_components/footer";
 import { MarqueeDemo } from "./_components/marquee";
 import { TextRevealDemo } from "./_components/text-revel-demo";
-import { UserInteraction } from "./_components/user-interaction";
 import { HeroVideoDialogDemo } from "./_components/video-card";
 import { WorldMapDemo } from "./_components/world-map-demo";
-import Footer from "./_components/footer";
-// import { BentoDemo } from "./_components/bento-grid";
-// import FoldedImageCard from "./_components/fold-image";
 
 export default function Page() {
   return (
@@ -33,9 +30,6 @@ export default function Page() {
               Previous Works
             </Button>
           </nav>
-
-          {/* Hero Section */}
-
           <main
             className="relative z-10 before:absolute before:top-0 before:left-0 before:w-full
 
@@ -96,11 +90,10 @@ export default function Page() {
         </div>
       </div>
       <HeroVideoDialogDemo />
-      {/* <BentoDemo /> */}
       <CardScroll />
       <TextRevealDemo />
       <ToolsMarquee />
-      <UserInteraction />
+      {/* <UserInteraction /> */}
       <WorldMapDemo />
 
       <Footer />

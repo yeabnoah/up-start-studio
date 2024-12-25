@@ -21,12 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body
-        className={cn(
-          "min-h-screen bg-black font-sans antialiased",
-          inter.variable
-        )}
-      >
+      <body className={cn("min-h-screen bg-black antialiased", inter.variable)}>
         <div className="grain"></div>
         {children}
       </body>

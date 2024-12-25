@@ -26,7 +26,7 @@ export const UserInteraction = () => (
       <div className={"relative h-[400px] w-full overflow-hidden"}>
         <div className="relative flex h-full w-full justify-end pt-4">
           {/* <AnimatedCursor text="Niko" /> */}
-          <div className="relative z-[1] h-full w-3/4 rounded-tl-xl bg-white px-6 pt-6 shadow-xl md:w-7/12">
+          <div className="relative z-[1] h-full w-3/4 rounded-tl-xl bg-white/5 px-6 pt-6 shadow-xl md:w-7/12">
             <div className="flex w-full items-center justify-start gap-4 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ export const UserInteraction = () => (
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 right-0  h-full w-3/4 rounded-full bg-gradient-to-br from-red-500 via-fuchsia-500 to-red-500 opacity-[0.3] blur-3xl" />
+      {/* <div className="absolute bottom-0 right-0  h-full w-3/4 rounded-full bg-gradient-to-br from-red-500 via-fuchsia-500 to-red-500 opacity-[0.3] blur-3xl" /> */}
     </Pointer>
   </div>
 );
